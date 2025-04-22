@@ -48,7 +48,7 @@ const Home = async () => {
 
   return (
     <div>
-      <Noti />
+      {/* <Noti /> */}
       {categories.map(
         (category, index) =>
           category.data && (
