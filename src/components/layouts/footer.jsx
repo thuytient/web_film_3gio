@@ -7,10 +7,11 @@ function AppFooter() {
   }, []);
   return (
     <div className="footer__custom">
-      <footer className="mt-4 d-flex flex-wrap justify-content-between align-items-center p-3 border-top">
-	  <div className="col-md-1 d-flex align-items-center">
+		<div className="col-md-1 d-flex align-items-center">
 	  <a>Tất cả nội dung của trang web này đều được tìm kiếm và thu thập ở các trang web phát video trực tuyến chính thống trên Internet, cũng như không cung cấp phát trực tuyến chính hãng.</a>
 	  </div>
+      <footer className="mt-4 d-flex flex-wrap justify-content-between align-items-center p-3 border-top">
+	  
         <div className="col-md-4 d-flex align-items-center">
           <a
             href="/"
@@ -37,4 +38,5 @@ function AppFooter() {
 }
 
 export default AppFooter;
+
 
