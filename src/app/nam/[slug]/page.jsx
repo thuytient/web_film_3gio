@@ -1,7 +1,7 @@
 import CardMovie from "@/components/template/CardMovie";
 import BreadCrumb from "@/components/template/BreadCrumb";
 export async function generateMetadata({ params }) {
-  const api = process.env.API_CT_QUOC_GIA;
+  const api = process.env.API_NAM_PHAT_HANH;
   const post = await fetch(`${api}/${params.slug}`);
   const data = await post.json();
   const seoOnPage = data.data.seoOnPage;
@@ -65,3 +65,4 @@ const NamPhatHanh = async ({ params, searchParams }) => {
 };
 
 export default NamPhatHanh;
+
