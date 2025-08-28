@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
             <main className="mt-17" style={{ minHeight: "100vh" }}>
               <AppSearch />
               {children}
-              <GoogleAnalytics gaId="G-2P6NS4S106" />
+              <GoogleAnalytics gaId="G-33FFZQLPEF" />
             </main>
             <AppFooter />
           </Suspense>
@@ -53,9 +53,11 @@ export default function RootLayout({ children }) {
           <Script src="/js/theme.min.js" strategy="beforeInteractive" />
           <Script src="/js/smooth-scrollbar.js" strategy="beforeInteractive" />
           <Script src="/js/mode.js" strategy="beforeInteractive" />
+          <Script async data-cfasync="false" data-clocid="2058309" src="//driverhugoverblown.com/on.js" />
         </body>
       </html>
     </ViewTransitions>
   );
 }
+
 
