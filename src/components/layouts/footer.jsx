@@ -8,49 +8,26 @@ function AppFooter() {
   return (
     <div className="footer__custom">
       <footer className="mt-4 d-flex flex-wrap justify-content-between align-items-center p-3 border-top">
+	  <div className="col-md-1 d-flex align-items-center">
+	  <a>Tất cả nội dung của trang web này đều được tìm kiếm và thu thập ở các trang web phát video trực tuyến chính thống trên Internet, cũng như không cung cấp phát trực tuyến chính hãng.</a>
+	  </div>
         <div className="col-md-4 d-flex align-items-center">
           <a
             href="/"
             className="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
           ></a>
           <span className="mb-3 mb-md-0 text-dark fw ">
-            © {year ? year : "Loading..."} code by{" "}
-            <a
-              className="text-warning"
-              href="http://facebook.com/vudovn.354"
-              target="_blank"
-            >
-              {process.env.BOSS}
-            </a>
-            , copyright
+            © {year ? year : "Loading..."} by VNN69
           </span>
         </div>
-        <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">          
           <li className="ms-3">
             <a
               className="text-muted fw text-warning"
-              href="https://www.facebook.com/vudovn.354"
-              target="_blank"
-            >
-              <i className="fe fe-facebook"></i>
-            </a>
-          </li>
-          <li className="ms-3">
-            <a
-              className="text-muted fw text-warning"
-              href="https://t.me/vudovn"
+              href="https://vnn69.com"
               target="_blank"
             >
               <i className="fe fe-message-circle"></i>
-            </a>
-          </li>
-          <li className="ms-3">
-            <a
-              className="text-muted fw text-warning"
-              href="https://www.instagram.com/_vudovn"
-              target="_blank"
-            >
-              <i className="fe fe-instagram"></i>
             </a>
           </li>
         </ul>
@@ -60,3 +37,4 @@ function AppFooter() {
 }
 
 export default AppFooter;
+
