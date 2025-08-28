@@ -46,7 +46,7 @@ const AppHeader = () => {
   const [quocGia, setQuocGia] = useState([]);
   const [namPhatHanh, setNamPhatHanh] = useState(() => {
     const years = [];
-    for (let i = 2024; i >= 1990; i--) {
+    for (let i = 2025; i >= 1990; i--) {
       years.push({ name: i, slug: i });
     }
     return years;
@@ -60,7 +60,7 @@ const AppHeader = () => {
           fetch(API_QUOC_GIA).then((res) => res.json()),
         ]);
         theLoaiRes.splice(
-          theLoaiRes.findIndex((item) => item.slug === "phim-18"),
+          theLoaiRes.findIndex((item) => item.slug === "am-nhac"),
           1
         );
         localStorage.setItem("theLoai", JSON.stringify(theLoaiRes));
@@ -80,10 +80,10 @@ const AppHeader = () => {
   }, [API_THE_LOAI, API_QUOC_GIA]);
 
   const dataRoute = [
-    { name: "Phim mới cập nhật", path: "/phim-moi-cap-nhat" },
+    { name: "Phim mới", path: "/phim-moi-cap-nhat" },
+    { name: "Phim 18+", path: "/the-loai/phim-18" },
     { name: "Phim lẻ", path: "/danh-sach/phim-le" },
-    { name: "Phim bộ", path: "/danh-sach/phim-bo" },
-    { name: "Hoạt hình", path: "/danh-sach/hoat-hinh" },
+    { name: "Phim bộ", path: "/danh-sach/phim-bo" },    
     { name: "TV Show", path: "/danh-sach/tv-shows" },
   ];
 
@@ -122,13 +122,13 @@ const AppHeader = () => {
       style={{ transition: "0.3s ease-in-out" }}
     >
       <div className="container">
-        {/* {renderLink("/", <span className="navbar-brand me-auto text-warning fw">VUDO</span>)} */}
+        {/* {renderLink("/", <span className="navbar-brand me-auto text-warning fw">VNN69</span>)} */}
         <Link
           onClick={() => setCurrentPath("/")}
           className="navbar-brand me-auto text-warning fw"
           href="/"
         >
-          VUDO
+          VNN69
         </Link>
         <div
           className="offcanvas offcanvas-end"
@@ -142,7 +142,7 @@ const AppHeader = () => {
                 className="offcanvas-title text-warning fw"
                 id="offcanvasNavbarLabel"
               >
-                VUDO
+                VNN69
               </h5>
             </a>
 
@@ -297,3 +297,4 @@ const AppHeader = () => {
   );
 };
 export default AppHeader;
+
