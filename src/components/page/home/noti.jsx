@@ -30,7 +30,7 @@ const Noti = () => {
             <div className="w-100 d-flex justify-content-center">
               <img
                 src="/img/PAY.png"
-                alt="banner - vudevweb.com"
+                alt="banner - vnn69.com"
                 className="rounded"
                 style={{ objectFit: "cover", maxWidth: "200px" }}
               />
@@ -40,8 +40,8 @@ const Noti = () => {
             </p>
             <p className="mt-2">
               👉 Liên hệ telegram &nbsp;
-              <a href="https://t.me/vudevwebChannel" target="_blank">
-                VUDOVN
+              <a href="https://t.me/boyquang" target="_blank">
+                VNN69
               </a>
               &nbsp; để yêu cầu phim! 👈
             </p>
@@ -53,3 +53,4 @@ const Noti = () => {
 };
 
 export default Noti;
+
