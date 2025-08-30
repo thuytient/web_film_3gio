@@ -27,7 +27,7 @@ const VideoPlayer = ({ episode }) => {
       <iframe
         className="video-iframe rounded"
         title={episode.filename || "Video"}
-        src=url={`https://play.vnn69.com?url=${episode.link_m3u8}`} 
+        src={`https://play.vnn69.com?url=${episode.link_m3u8}`} 
         width="100%"
         height="500px"
         frameBorder="0"
@@ -155,5 +155,6 @@ const MoviePlayer = ({ initialData, params }) => {
 };
 
 export default MoviePlayer;
+
 
 
