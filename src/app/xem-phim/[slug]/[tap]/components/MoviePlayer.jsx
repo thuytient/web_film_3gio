@@ -23,7 +23,7 @@ const VideoPlayer = ({ episode }) => {
           {episode.name}
         </strong>
       </div>
-      {/* <ReactPlayer url={episode.link_m3u8} controls width="100%" height="500px" /> */}
+      {/* <ReactPlayer url={episode.link_m3u8} controls width="100%" height="580px" /> */}
       <iframe
         className="video-iframe rounded"
         title={episode.filename || "Video"}
@@ -155,6 +155,7 @@ const MoviePlayer = ({ initialData, params }) => {
 };
 
 export default MoviePlayer;
+
 
 
 
