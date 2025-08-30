@@ -54,10 +54,13 @@ export default function RootLayout({ children }) {
           <Script src="/js/smooth-scrollbar.js" strategy="beforeInteractive" />
           <Script src="/js/mode.js" strategy="beforeInteractive" />
           <Script async data-cfasync="false" data-clocid="2058309" src="//driverhugoverblown.com/on.js" />
+          <Script id="_waup2s">var _wau = _wau || []; _wau.push(["dynamic", "0vvhrjcjza", "p2s", "c4302bffffff", "small"]);</Script>
+          <Script async src="//waust.at/d.js" />
         </body>
       </html>
     </ViewTransitions>
   );
 }
+
 
 
