@@ -193,7 +193,7 @@ const Info = ({ data }) => {
                 aria-controls="ex3-tabs-2"
                 aria-selected="false"
               >
-                Nội dung phim
+                Nội dung
               </a>
             </li>
             <li className="nav-item" role="presentation">
@@ -206,7 +206,7 @@ const Info = ({ data }) => {
                 aria-controls="ex3-tabs-3"
                 aria-selected="false"
               >
-                Các tập phim
+                Các tập
               </a>
             </li>
           </ul>
@@ -218,3 +218,4 @@ const Info = ({ data }) => {
 };
 
 export default Info;
+
