@@ -71,7 +71,7 @@ const Info = ({ data }) => {
     <div>
       {episodes.map((episode, index) => (
         <div key={index} className="text-center mt-3">
-          {episode.server_data.slice(0, 1).map((ep, i) => (
+         {/* {episode.server_data.slice(0, 1).map((ep, i) => (
             <Link
               key={i}
               href={`/xem-phim/${movie.slug}/${ep.slug}?server=${index}`}
@@ -79,7 +79,7 @@ const Info = ({ data }) => {
             >
               Xem ngay
             </Link>
-          ))}
+          ))} */}
           {trailer_url && (
             <a
               href={trailer_url}
@@ -163,19 +163,20 @@ const Info = ({ data }) => {
             style={{ width: "100%", height: "100%" }}
           />
           {/* </div> */}
-          <div>
+          
       {episodes.map((episode, index) => (
-        <div key={index} className="text-center mt-3">
+        <div key={index} className="text-center mt-1">
           {episode.server_data.slice(0, 1).map((ep, i) => (
             <Link
               key={i}
               href={`/xem-phim/${movie.slug}/${ep.slug}?server=${index}`}
-              className="btn btn-warning me-3"
+              className="btn btn-warning me-1"
             >
               Xem ngay
             </Link>
           ))}
         </div>
+      <div>
       ))}
     </div>
         </div>
@@ -233,5 +234,6 @@ const Info = ({ data }) => {
 };
 
 export default Info;
+
 
 
