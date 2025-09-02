@@ -1,4 +1,5 @@
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import Script from "next/script";
 import { Suspense } from "react";
 import Loading from "./loading";
@@ -37,6 +38,7 @@ export default function RootLayout({ children }) {
             <main className="mt-17" style={{ minHeight: "100vh" }}>
               <AppSearch />
               {children}
+              <SpeedInsights />
               <GoogleAnalytics gaId="G-33FFZQLPEF" />
             </main>
             <AppFooter />
@@ -60,6 +62,7 @@ export default function RootLayout({ children }) {
     </ViewTransitions>
   );
 }
+
 
 
 
