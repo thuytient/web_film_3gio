@@ -160,9 +160,24 @@ const Info = ({ data }) => {
             }
             alt={name || "Poster"}
             className="rounded-2"
-            style={{ width: "100%", height: "450px" }}
+            style={{ width: "100%", height: "100%" }}
           />
           {/* </div> */}
+          <div>
+      {episodes.map((episode, index) => (
+        <div key={index} className="text-center mt-3">
+          {episode.server_data.slice(0, 1).map((ep, i) => (
+            <Link
+              key={i}
+              href={`/xem-phim/${movie.slug}/${ep.slug}?server=${index}`}
+              className="btn btn-warning me-3"
+            >
+              Xem ngay
+            </Link>
+          ))}
+        </div>
+      ))}
+    </div>
         </div>
         <div className="col-12 col-md-9">
           <ul
@@ -218,4 +233,5 @@ const Info = ({ data }) => {
 };
 
 export default Info;
+
 
