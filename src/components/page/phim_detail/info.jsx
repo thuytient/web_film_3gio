@@ -160,7 +160,7 @@ const Info = ({ data }) => {
             }
             alt={name || "Poster"}
             className="rounded-2"
-            style={{ width: "100%", height: "100%" }}
+            style={{ width: "100%", height: "auto" }}
           />
           {/* </div> */}
           
@@ -234,6 +234,7 @@ const Info = ({ data }) => {
 };
 
 export default Info;
+
 
 
 
