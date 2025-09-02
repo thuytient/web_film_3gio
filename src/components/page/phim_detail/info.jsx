@@ -163,7 +163,7 @@ const Info = ({ data }) => {
             style={{ width: "100%", height: "auto" }}
           />
           {/* </div> */}
-          
+          <div>
       {episodes.map((episode, index) => (
         <div key={index} className="text-center mt-1">
           {episode.server_data.slice(0, 1).map((ep, i) => (
@@ -176,7 +176,7 @@ const Info = ({ data }) => {
             </Link>
           ))}
         </div>
-      <div>
+      
       ))}
     </div>
         </div>
@@ -234,6 +234,7 @@ const Info = ({ data }) => {
 };
 
 export default Info;
+
 
 
 
