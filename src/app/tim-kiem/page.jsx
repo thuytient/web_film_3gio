@@ -87,7 +87,7 @@ const Page = () => {
       <div style={{ minHeight: "100vh" }}>
         <div className="mb-5">
           <h3 className="text-warning">
-            Nội dung tìm kiếm &quot;{keyword}&quot;
+            Phim tìm kiếm &quot;{keyword}&quot;
           </h3>
         </div>
         <div className="mb-5">
@@ -130,3 +130,4 @@ const Page = () => {
 };
 
 export default Page;
+
