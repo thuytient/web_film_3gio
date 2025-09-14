@@ -81,7 +81,6 @@ const AppHeader = () => {
 
   const dataRoute = [
     { name: "Phim mới", path: "/phim-moi-cap-nhat" },
-    { name: "Phim 18+", path: "/the-loai/phim-18" },
     { name: "Phim lẻ", path: "/danh-sach/phim-le" },
     { name: "Phim bộ", path: "/danh-sach/phim-bo" },    
     { name: "TV Show", path: "/danh-sach/tv-shows" },
@@ -122,13 +121,13 @@ const AppHeader = () => {
       style={{ transition: "0.3s ease-in-out" }}
     >
       <div className="container">
-        {/* {renderLink("/", <span className="navbar-brand me-auto text-warning fw">VNN69</span>)} */}
+        {/* {renderLink("/", <span className="navbar-brand me-auto text-warning fw">3GIO</span>)} */}
         <Link
           onClick={() => setCurrentPath("/")}
           className="navbar-brand me-auto text-warning fw"
           href="/"
         >
-          VNN69
+          PHIMMOI
         </Link>
         <div
           className="offcanvas offcanvas-end"
@@ -142,7 +141,7 @@ const AppHeader = () => {
                 className="offcanvas-title text-warning fw"
                 id="offcanvasNavbarLabel"
               >
-                VNN69
+                PHIMMOI
               </h5>
             </a>
 
@@ -297,6 +296,7 @@ const AppHeader = () => {
   );
 };
 export default AppHeader;
+
 
 
 
