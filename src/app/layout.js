@@ -53,13 +53,13 @@ export default function RootLayout({ children }) {
           <Script src="/js/theme.min.js" strategy="beforeInteractive" />
           <Script src="/js/smooth-scrollbar.js" strategy="beforeInteractive" />
           <Script src="/js/mode.js" strategy="beforeInteractive" />
-          <Script async data-cfasync="false" data-clocid="2058309" src="//driverhugoverblown.com/on.js" />
           
         </body>
       </html>
     </ViewTransitions>
   );
 }
+
 
 
 
