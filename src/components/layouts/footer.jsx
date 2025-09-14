@@ -18,14 +18,14 @@ function AppFooter() {
             className="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
           ></a>
           <span className="mb-3 mb-md-0 text-dark fw ">
-            © {year ? year : "Loading..."} by VNN69
+            © {year ? year : "Loading..."} by PHIMMOI 3GIO
           </span>
         </div>
         <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">          
           <li className="ms-3">
             <a
               className="text-muted fw text-warning"
-              href="https://vnn69.com"
+              href="https://3gio.net"
               target="_blank"
             >
               <i className="fe fe-message-circle"></i>
@@ -38,6 +38,7 @@ function AppFooter() {
 }
 
 export default AppFooter;
+
 
 
 
