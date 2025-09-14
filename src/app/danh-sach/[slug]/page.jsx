@@ -35,7 +35,7 @@ const fetchMoviesByCategory = async (slug, page) => {
 
 const DanhMuc = async ({ params, searchParams }) => {
   const slug = params.slug;
-  const page = parseInt(searchParams.page || 1, 10);
+  const page = parseInt(searchParams.page || 1, 30);
   const data = await fetchMoviesByCategory(slug, page);
   if (!data) {
     return <div>Error loading data. Please try again later.</div>;
@@ -66,3 +66,4 @@ const DanhMuc = async ({ params, searchParams }) => {
 };
 
 export default DanhMuc;
+
