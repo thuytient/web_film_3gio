@@ -77,7 +77,6 @@ function DanhMucPhim({ movies = [], categoryTitle = "", domain = "" }) {
         <ul className="card__list">
           <li>{lang}</li>
           <li>{year}</li>
-          <li>{quality}</li>
         </ul>
       </div>
     );
@@ -99,3 +98,4 @@ function DanhMucPhim({ movies = [], categoryTitle = "", domain = "" }) {
 }
 
 export default DanhMucPhim;
+
