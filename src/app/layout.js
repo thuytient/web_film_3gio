@@ -22,7 +22,7 @@ export const metadata = {
     "https://scontent.fsgn5-6.fna.fbcdn.net/v/t39.30808-1/381271892_805928278202949_6388609339400536337_n.jpg?stp=dst-jpg_p200x200&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=YFb859k94L8Q7kNvgEyV2nL&_nc_ht=scontent.fsgn5-6.fna&oh=00_AfAxzB7t6FbhZPtOvgKvxggnMuv_greJ9Ge85i9sJVLKBw&oe=663DB2D2",
   url: "/",
   type: "website",
-  site_name: "Phimmoi-vnn69",
+  site_name: "Phimmoi-3gio",
   locale: "vi_VN",
 };
 
@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
             <main className="mt-17" style={{ minHeight: "100vh" }}>
               <AppSearch />
               {children}
-              <GoogleAnalytics gaId="G-33FFZQLPEF" />
+              <GoogleAnalytics gaId="G-P9G7B52MXE" />
             </main>
             <AppFooter />
           </Suspense>
@@ -60,6 +60,7 @@ export default function RootLayout({ children }) {
     </ViewTransitions>
   );
 }
+
 
 
 
